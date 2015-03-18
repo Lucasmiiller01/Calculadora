@@ -104,7 +104,9 @@ namespace WindowsFormsApplication1
             else calculator.valor = calculator.sl;
             // contas que sao executadas na h que clicadas no simbolo
             if (algo && calculator.simbolinho.Equals("√") || algo && calculator.simbolinho.Equals("Sen") || algo && calculator.simbolinho.Equals("Cos") ||
-                algo && calculator.simbolinho.Equals("Tg")) 
+                algo && calculator.simbolinho.Equals("Tg") || algo && calculator.simbolinho.Equals("! In") || algo && calculator.simbolinho.Equals("! Re") || 
+                algo && calculator.simbolinho.Equals("Fi In") || algo && calculator.simbolinho.Equals("Fi Re"))
+
             {
                 calculator.calcular();
                 Result.Text = calculator.total.ToString();
@@ -114,6 +116,12 @@ namespace WindowsFormsApplication1
                 somou = true;
             }
             simbol = true;
+        }
+        // verifica se o valor digitado e um numero
+        private void Aprovador(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar) || e.KeyChar == 8)
+                e.Handled = true;
         }
         // inverter sinal
         private void Negativar(object sender, EventArgs e)

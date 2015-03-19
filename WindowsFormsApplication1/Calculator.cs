@@ -13,19 +13,6 @@ namespace WindowsFormsApplication1
         public double valor = 0;
         public double valor2 = 0;
         public double total = 0;
-        // funcao para fatoriar o valor recursivamente
-        private double fatoriar(double valor)
-        {
-            if (valor.Equals(0))
-                return 1;
-            return fatoriar(valor - 1) * valor;
-        }
-        // funcao para fibonacci recursivo
-        private double fibo(double valor)
-        {
-            if (valor.Equals(1) || valor.Equals(2)) return 1;
-            return fibo(valor - 1) + fibo(valor - 2);
-        }
         // funcao para calcular
         public void calcular()
         {
@@ -57,40 +44,6 @@ namespace WindowsFormsApplication1
                     break;
                 case "√":
                     total = Math.Sqrt(valor);
-                    break;
-                case "! Re":
-                    total = fatoriar(valor);
-                    break;
-                case "! In":
-                    if (valor.Equals(0)) total = 1;
-                    else
-                    {
-                        total = 1;
-                        for (double i = valor; i > 0; i--)
-                        {
-                            total *= i;
-                        }
-                    }
-                    break;
-                case "Fi Re":
-                    total = fibo(valor);
-                    break;
-                case "Fi In":
-                    if (valor.Equals(0)) total = 0;
-                    else
-                    {
-                        double n = 0;
-                        double m = 1; 
-                        for (double i = 1; i < valor; i++)
-                        {
-                            
-                            if (valor > 1)
-                                total = m + n;
-                            n = m;
-                            m = total;
-                        }
-                        if (valor.Equals(1)) total = 1;
-                    }
                     break;
                 case "^":
                     total = Math.Pow(valor, valor2);

@@ -25,3 +25,15 @@ C:\Users\Emanuel Messias\Desktop\Calculadora\WindowsFormsApplication1\obj\Debug\
 C:\Users\Emanuel Messias\Desktop\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Calculadora.resources
 C:\Users\Emanuel Messias\Desktop\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Emanuel Messias\Desktop\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\seeduc\Downloads\Calculadora\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\seeduc\Downloads\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\seeduc\Downloads\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Calculadora.resources
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Emanuel.Umbelino\Downloads\Calculadora-master\Calculadora\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
